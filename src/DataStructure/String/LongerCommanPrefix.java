@@ -6,6 +6,7 @@ public class LongerCommanPrefix {
             return "";
         }
         String prefix = strs[0];
+
         for(int i=0;i<strs.length;i++)
         {
             while(strs[i].indexOf(prefix)!=0)
