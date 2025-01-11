@@ -20,7 +20,6 @@ public class LongestValidParentheses {
                     stack.push(i);
                 else
                     maxLength = Math.max(maxLength, i - stack.peek());
-
             }
         }
         return maxLength;
